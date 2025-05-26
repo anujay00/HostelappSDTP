@@ -1,0 +1,441 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #444444;
+  font-weight: 400;
+  color: #222222 !important;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Navbar */
+.navbar {
+  padding: 40px 0;
+}
+.nav-logo {
+  margin-right: 40px;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.nav-item a {
+  color: #222222;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.nav-item a:hover {
+  color: #025208;
+}
+.link-reg .menu li {
+  margin-right: 20px;
+}
+.link-reg .menu li a {
+  color: #222222;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.submit__listing {
+  padding: 10px 15px;
+  background-color: #025208;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+}
+.mobile-nav-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  font-size: 24px;
+}
+/* End of Navbar */
+
+/* Sign up */
+.page-register {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  position: relative;
+}
+.page-bg-color {
+  background-color: #fafafa;
+}
+
+.curve-404,
+.page-404 .subtitle::before,
+.page-register::before {
+  content: '';
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  z-index: 0;
+}
+
+.box-form {
+  max-width: 658px;
+  width: 100%;
+  margin: 0 auto 100px;
+  background-color: #f0f0f0;
+  padding: 50px;
+  border-radius: 2px;
+}
+
+.box-form .form .form-title {
+  font-size: 30px;
+  color: #222222;
+  font-weight: 600;
+  line-height: 1.267;
+  text-align: left;
+  margin-bottom: 70px;
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.page-register .box-form .form input {
+  height: 64px;
+  border: none;
+  margin-bottom: 36px;
+  padding-left: 25px;
+}
+
+.page-register .box-form .form input ~ div {
+  margin-bottom: 42px;
+}
+
+.page-register .box-form .form input ~ div input {
+  height: auto;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.page-register .box-form .form input {
+  height: 64px;
+  border: none;
+  margin-bottom: 36px;
+  padding-left: 25px;
+}
+
+.page-register .box-form .form .link__template {
+  max-width: 100%;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: #025208;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-bottom: 25px;
+  padding-right: 0;
+}
+
+.page-register .box-form .form .link__template .text {
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+}
+.link__template .text {
+  width: 100%;
+  text-align: center;
+}
+.page-register .box-form .form input ~ div:not(:last-child) label {
+  margin-right: 10px;
+}
+.page-register .box-form .form input ~ div label:not(:last-child) {
+  margin-right: 45px;
+}
+.page-register .box-form .form input ~ div label {
+  margin-bottom: 0;
+}
+.page-register .box-form .form label {
+  font-size: 17px;
+  color: #444444;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* Your Properties */
+
+.landlord-properties .wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.landlord-properties .wrapper a {
+  text-decoration: none;
+  color: #222222;
+}
+.property-item {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.property-item .property-image {
+  width: 400px;
+  border-radius: 2px;
+  position: relative;
+}
+.property-item .property-image img {
+  width: 100%;
+  height: 100%;
+}
+.status-action {
+  margin-top: 20px;
+}
+.approve {
+  border: none;
+  background-color: #025208;
+  color: #fff;
+}
+.reject {
+  border: none;
+  background-color: #ff0000;
+  color: #fff;
+}
+
+/* Single Property */
+body {
+  background: #f5f5f5;
+  margin-top: 20px;
+}
+/*------- portfolio -------*/
+.project {
+  margin: 15px 0;
+}
+
+.no-gutter .project {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.has-spacer {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.has-spacer-extra-space {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.has-side-spacer {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.project-title {
+  font-size: 1.25rem;
+}
+
+.project-skill {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+}
+
+.project-info-box {
+  margin: 15px 0;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 5px;
+}
+
+.project-info-box p {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d5dadb;
+}
+
+.project-info-box p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.rounded {
+  border-radius: 5px !important;
+}
+
+.reservation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #025208;
+  font-size: 1.24rem;
+}
+
+/* Student Requests */
+
+.bg-light-blue {
+  background-color: #e9f7fe !important;
+  color: #3184ae;
+  padding: 7px 18px;
+  border-radius: 4px;
+}
+
+.bg-light-green {
+  background-color: rgba(40, 167, 69, 0.2) !important;
+  padding: 7px 18px;
+  border-radius: 4px;
+  color: #28a745 !important;
+}
+
+.buttons-to-right {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.btn-gray {
+  color: #666;
+  background-color: #eee;
+  padding: 7px 18px;
+  border-radius: 4px;
+}
+
+.booking:hover .buttons-to-right .btn-gray {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.buttons-to-right .btn-gray {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.btn-gray:hover {
+  background-color: #36a3f5;
+  color: #fff;
+}
+
+.booking {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+
+.booking:last-child {
+  margin-bottom: 0px;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 575px) {
+  .buttons-to-right {
+    top: 10%;
+  }
+  .buttons-to-right a {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .buttons-to-right a:last-child {
+    margin-bottom: 0px;
+  }
+  .bg-light-blue,
+  .bg-light-green,
+  .btn-gray {
+    padding: 7px;
+  }
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  box-shadow: none;
+  border: none;
+  padding: 25px;
+}
+.mb-5,
+.my-5 {
+  margin-bottom: 3rem !important;
+}
+.msg-img {
+  margin-right: 20px;
+}
+.msg-img img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.main-heading span {
+  color: #025208;
+}
